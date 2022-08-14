@@ -1,0 +1,124 @@
+.Destination__content{
+    margin-top: 60px;
+}
+.Destination__content-text{
+    margin: 0;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.Destination__content-info{
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    width: 100%;
+}
+.Destination__content-importan{
+    color: #000;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 3.6rem; 
+    position: relative;
+}
+.Destination__content-importan::after{
+    content: '';
+    position: absolute;
+    bottom: 16%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(27, 188, 155);
+    z-index: -9;
+}
+.Destination__section{
+    margin-top: 36px;
+}
+
+
+.Destination__section-info{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.Destination__section-info:hover .img__view{
+    opacity: 1;
+}
+
+.Destination__section-img{
+    width: 100%;
+    height: 100%;
+}
+.Destination__section-info{
+    padding:  0;
+    margin: 12px 0;
+}
+/* Advertise */
+.Destination__advertise-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Destination__advertise{
+    background: url(../img/Advenstive.jpg) bottom center / cover no-repeat;
+    margin-top: 60px;
+    padding: 50px;
+    z-index: -10;
+}
+.Destination__advertise-text{
+    font-size: 4.5rem;
+    height: 65px;
+    line-height: 4.5rem;
+    font-weight: 700;
+    color: var(--while-color);
+
+}
+.Destination__advertise-2{
+    vertical-align: middle;
+    z-index: 99;
+}
+.Destination__advertise-text-1{
+    font-size: 5rem;
+    height: 65px;
+    line-height: 5rem;
+    font-weight: 700;
+    color: var(--while-color);
+    position: relative;
+}
+.Destination__advertise-text-1::after{
+    content: '';
+    background-color: #f76570;
+    width: 163px;
+    height: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    z-index: -9;
+
+}
+.Destination__advertise-button{
+    padding: 60px 0px 10px;
+    text-align: center;
+}
+.Destination__advertise-button-link{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: rgb(255, 0, 0);
+    width: 180px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: var(--while-color);
+    margin: auto;
+    border-radius: 40px;
+}
